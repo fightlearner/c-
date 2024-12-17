@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_memcpy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1F4BE5-FE1C-4A1E-8044-040A223D525F}|my_memcpy\\my_memcpy.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_memcpy\\my_memcpy\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F1F4BE5-FE1C-4A1E-8044-040A223D525F}|my_memcpy\\my_memcpy.vcxproj|solutionrelative:my_memcpy\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 138,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_memcpy\\my_memcpy\\main.c",
+              "RelativeDocumentMoniker": "my_memcpy\\main.c",
+              "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_memcpy\\my_memcpy\\main.c",
+              "RelativeToolTip": "my_memcpy\\main.c",
+              "ViewState": "AQIAADwAAAAAAAAAAAAcwEcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-17T11:49:22.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
