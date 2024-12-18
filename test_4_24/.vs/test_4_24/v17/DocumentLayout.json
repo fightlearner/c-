@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Study\\Cfile\\vscode\\test_4_24\\",
+  "WorkspaceRootPath": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\test_4_24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A9A523B-FBCC-4802-AC7F-B4C3981F4BF1}|test_4_24\\test_4_24.vcxproj|D:\\Study\\Cfile\\vscode\\test_4_24\\test_4_24\\test_4_24.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1A9A523B-FBCC-4802-AC7F-B4C3981F4BF1}|test_4_24\\test_4_24.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\test_4_24\\test_4_24\\test_4_24.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A9A523B-FBCC-4802-AC7F-B4C3981F4BF1}|test_4_24\\test_4_24.vcxproj|solutionrelative:test_4_24\\test_4_24.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,14 +20,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test_4_24.c",
-              "DocumentMoniker": "D:\\Study\\Cfile\\vscode\\test_4_24\\test_4_24\\test_4_24.c",
+              "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\test_4_24\\test_4_24\\test_4_24.c",
               "RelativeDocumentMoniker": "test_4_24\\test_4_24.c",
-              "ToolTip": "D:\\Study\\Cfile\\vscode\\test_4_24\\test_4_24\\test_4_24.c",
+              "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\test_4_24\\test_4_24\\test_4_24.c",
               "RelativeToolTip": "test_4_24\\test_4_24.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-24T06:38:10.49Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\changenum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ED7FF5-D8CA-4F86-8A0D-FFB0ED382FB9}|changenum\\changenum.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\changenum\\changenum\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1ED7FF5-D8CA-4F86-8A0D-FFB0ED382FB9}|changenum\\changenum.vcxproj|solutionrelative:changenum\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\changenum\\changenum\\main.c",
+              "RelativeDocumentMoniker": "changenum\\main.c",
+              "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\changenum\\changenum\\main.c",
+              "RelativeToolTip": "changenum\\main.c",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-18T12:35:24.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  main.c
+D:\Study\Cfile\代码仓库\c-\changenum\changenum\main.c(14,14): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Study\Cfile\代码仓库\c-\changenum\changenum\main.c(18,14): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  changenum.vcxproj -> D:\Study\Cfile\代码仓库\c-\changenum\x64\Debug\changenum.exe

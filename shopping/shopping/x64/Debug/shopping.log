@@ -1,0 +1,4 @@
+﻿  main.c
+D:\Study\Cfile\代码仓库\c-\shopping\shopping\main.c(13,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Study\Cfile\代码仓库\c-\shopping\shopping\main.c(21,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  shopping.vcxproj -> D:\Study\Cfile\代码仓库\c-\shopping\x64\Debug\shopping.exe

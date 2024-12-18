@@ -39,27 +39,27 @@ void* my_memmove(void* des, const void* sc, int num)
 	}
 	return des;
 }
-//int my_memcmp(void* des, const void* sc, int num)
-//{
-//	int* sc1 = (int*)sc;
-//	int* des1 = (int*)des;
-//	for (int i = 0;i < num;i++)
-//	{
-//		if (*des1 > *sc1)
-//		{
-//			return 1;
-//			break;
-//		}
-//		else if (*des1 <  *sc1)
-//		{
-//			return -1;
-//			break;
-//		}
-//		des1++;
-//		sc1++;
-//	}
-//	return 0;
-//}
+int my_memcmp(void* des, const void* sc, int num)
+{
+	int* sc1 = (int*)sc;
+	int* des1 = (int*)des;
+	for (int i = 0;i < num;i++)
+	{
+		if (*des1 > *sc1)
+		{
+			return 1;
+			break;
+		}
+		else if (*des1 <  *sc1)
+		{
+			return -1;
+			break;
+		}
+		des1++;
+		sc1++;
+	}
+	return 0;
+}
 int main()
 {
 	int arr1[] = { 1,2,3,4,5,6,7 };//0-3 4-7 8-11 12-15 16-19
