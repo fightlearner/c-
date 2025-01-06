@@ -1,0 +1,5 @@
+﻿  main.c
+D:\Study\Cfile\代码仓库\c-\movestring\movestring\main.c(6,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Study\Cfile\代码仓库\c-\movestring\movestring\main.c(19,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Study\Cfile\代码仓库\c-\movestring\movestring\main.c(20,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  movestring.vcxproj -> D:\Study\Cfile\代码仓库\c-\movestring\x64\Debug\movestring.exe
