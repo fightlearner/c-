@@ -5,6 +5,7 @@
 # include <memory.h>
 # include <assert.h>
 # include <string.h>
+# include <stdlib.h>
 
 #define MAX 3
 #define MAX_NAME 10
@@ -32,4 +33,6 @@ void InitContact(Contact* pc);
 void AddContact(Contact* pc);
 void DeleteContact(Contact* pc);
 void ShowContact(Contact* pc);
-
+void SearchContact(Contact* pc);
+void ModifyContact(Contact* pc);
+void SortContact(Contact* pc);

@@ -5,9 +5,10 @@ void menu()
 	printf("******** 1.增加联系人 **********\n");
 	printf("******** 2.删除联系人 **********\n");
 	printf("******** 3.查找联系人 **********\n");
-	printf("******** 4.按姓名排序 **********\n");
-	printf("******** 5.显示通讯录 **********\n");
-	printf("******** 6.退出 ****************\n");
+	printf("******** 4.修改联系人 **********\n");
+	printf("******** 5.按姓名排序 **********\n");
+	printf("******** 6.显示通讯录 **********\n");
+	printf("******** 7.退出 ****************\n");
 }
 int main()
 {
@@ -28,13 +29,18 @@ int main()
 				DeleteContact(&con);
 				break;
 			case 3:
+				SearchContact(&con);
 				break;
 			case 4:
+				ModifyContact(&con);
 				break;
 			case 5:
-				ShowContact(&con);
+				SortContact(&con);
 				break;
 			case 6:
+				ShowContact(&con);
+				break;
+			case 7:
 				break;
 			default:
 				printf("输入错误，请重新输入\n");
@@ -43,6 +49,6 @@ int main()
 			
 
 
-	} while (input != 6);
+	} while (input != 7);
 	return 0;
 }
