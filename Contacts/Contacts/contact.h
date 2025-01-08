@@ -8,6 +8,7 @@
 # include <stdlib.h>
 
 #define MAX 3
+#define INC 2
 #define MAX_NAME 10
 #define MAX_gender 5
 #define MAX_TELE 20
@@ -22,17 +23,26 @@ typedef struct PeoInfo
 	char address[MAX_ADDRESS];
 }PeoInfo;
 
+//¾²Ì¬°æ±¾
+//typedef struct Contact
+//{
+//	PeoInfo data[MAX];
+//	int count;
+//}Contact;
 
+//¶¯Ì¬°æ±¾
 typedef struct Contact
 {
-	PeoInfo data[MAX];
+	PeoInfo* data;
 	int count;
+	int capacity;
 }Contact;
 
-void InitContact(Contact* pc);
+int InitContact(Contact* pc);
 void AddContact(Contact* pc);
 void DeleteContact(Contact* pc);
 void ShowContact(Contact* pc);
 void SearchContact(Contact* pc);
 void ModifyContact(Contact* pc);
 void SortContact(Contact* pc);
+void DestoryContact(Contact* pc);

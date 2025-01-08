@@ -1,10 +1,17 @@
 #include "contact.h"
 
-void InitContact(Contact* pc)
+int InitContact(Contact* pc)
 {
 	assert(pc);
 	pc->count = 0;
-	memset(pc->data, 0, sizeof(pc->data));
+	pc->data = (PeoInfo*)calloc(MAX, sizeof(PeoInfo));
+	if (pc->data == NULL)
+	{
+		printf("%s\n", strerror(errno));
+		return 1;
+	}
+	pc->capacity = MAX;
+	return 0;
 }
 
 void ShowContact(Contact* pc)
@@ -30,29 +37,60 @@ void ShowContact(Contact* pc)
 	}
 	
 }
+//静态版本
+//void AddContact(Contact* pc)
+//{
+//	assert(pc);
+//	if (pc->count == MAX)
+//	{
+//		printf("通讯录已满\n");
+//		return;
+//	}
+//	else
+//	{
+//		printf("姓名：");
+//		scanf("%s", pc->data[pc->count].name);
+//		printf("年龄：");
+//		scanf("%d", &(pc->data[pc->count].age));
+//		printf("性别：");
+//		scanf("%s", pc->data[pc->count].gender);
+//		printf("电话：");
+//		scanf("%s", pc->data[pc->count].tele);
+//		printf("地址：");
+//		scanf("%s", pc->data[pc->count].address);
+//		pc->count++;
+//	}
+//}
 
 void AddContact(Contact* pc)
 {
 	assert(pc);
-	if (pc->count == MAX)
+	if (pc->count == pc->capacity)
 	{
-		printf("通讯录已满\n");
-		return;
+		PeoInfo* prt = (PeoInfo*)realloc(pc->data, (pc->capacity + INC) * sizeof(PeoInfo));
+		if (prt == NULL)
+		{
+			printf("%s\n", strerror(errno));
+			return;
+		}
+		else
+		{
+			pc->data = prt;
+			pc->capacity = pc->capacity + INC;
+		}
 	}
-	else
-	{
-		printf("姓名：");
-		scanf("%s", pc->data[pc->count].name);
-		printf("年龄：");
-		scanf("%d", &(pc->data[pc->count].age));
-		printf("性别：");
-		scanf("%s", pc->data[pc->count].gender);
-		printf("电话：");
-		scanf("%s", pc->data[pc->count].tele);
-		printf("地址：");
-		scanf("%s", pc->data[pc->count].address);
-		pc->count++;
-	}
+	printf("姓名：");
+	scanf("%s", pc->data[pc->count].name);
+	printf("年龄：");
+	scanf("%d", &(pc->data[pc->count].age));
+	printf("性别：");
+	scanf("%s", pc->data[pc->count].gender);
+	printf("电话：");
+	scanf("%s", pc->data[pc->count].tele);
+	printf("地址：");
+	scanf("%s", pc->data[pc->count].address);
+	pc->count++;
+	
 }
 int FindContact(Contact* pc, char* name)
 {
@@ -151,4 +189,9 @@ void ModifyContact(Contact* pc)
 		scanf("%s", pc->data[i].address);
 	}
 }
-
+void DestoryContact(Contact* pc)
+{
+	assert(pc);
+	free(pc->data);
+	pc->data = NULL;
+}
