@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|solutionrelative:Contacts\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|solutionrelative:Contacts\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|solutionrelative:Contacts\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F719DC1-8583-46CB-A320-2D768D0A401A}|Contacts\\Contacts.vcxproj|solutionrelative:Contacts\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contact.h",
+              "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.h",
+              "RelativeDocumentMoniker": "Contacts\\contact.h",
+              "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.h",
+              "RelativeToolTip": "Contacts\\contact.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T14:32:37.038Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,40 +49,23 @@
               "RelativeDocumentMoniker": "Contacts\\test.c",
               "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\test.c",
               "RelativeToolTip": "Contacts\\test.c",
-              "ViewState": "AQIAACAAAAAAAAAAAADwvygAAAAWAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-06T13:42:42.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "contact.c",
               "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.c",
               "RelativeDocumentMoniker": "Contacts\\contact.c",
               "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.c",
               "RelativeToolTip": "Contacts\\contact.c",
-              "ViewState": "AQIAALEAAAAAAAAAAAAAAL8AAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-06T14:46:09.013Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "contact.h",
-              "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.h",
-              "RelativeDocumentMoniker": "Contacts\\contact.h",
-              "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\Contacts\\Contacts\\contact.h",
-              "RelativeToolTip": "Contacts\\contact.h",
-              "ViewState": "AQIAACIAAAAAAAAAAAAUwC8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-06T14:46:23.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

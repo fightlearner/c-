@@ -1,5 +1,41 @@
 #include "contact.h"
 
+void LoadContact(Contact* pc)
+{
+	assert(pc);
+	FILE* pr = fopen("Contact.txt", "rb");
+	if (pr == NULL)
+	{
+		perror("LoadContact");
+		return;
+	}
+	else
+	{
+		PeoInfo temp = { 0 };
+		while (fread(&temp, sizeof(PeoInfo), 1, pr) == 1)
+		{
+			if (pc->count == pc->capacity)
+			{
+				PeoInfo* prt = (PeoInfo*)realloc(pc->data, (pc->capacity + INC) * sizeof(PeoInfo));
+				if (prt == NULL)
+				{
+					printf("%s\n", strerror(errno));
+					return;
+				}
+				else
+				{
+					pc->data = prt;
+					pc->capacity = pc->capacity + INC;
+				}
+			}
+			pc->data[pc->count] = temp;
+			pc->count++;
+		}
+	}
+	fclose(pr);
+	pr = NULL;
+}
+
 int InitContact(Contact* pc)
 {
 	assert(pc);
@@ -11,6 +47,7 @@ int InitContact(Contact* pc)
 		return 1;
 	}
 	pc->capacity = MAX;
+	LoadContact(pc);
 	return 0;
 }
 
@@ -194,4 +231,26 @@ void DestoryContact(Contact* pc)
 	assert(pc);
 	free(pc->data);
 	pc->data = NULL;
+}
+
+void SaveContact(Contact* pc)
+{
+	assert(pc);
+	FILE* pr = fopen("Contact.txt", "wb");
+	if (pr == NULL)
+	{
+		perror("SaveContact");
+		return;
+	}
+	else
+	{
+		for (int i = 0;i < pc->count;i++)
+		{
+			fwrite(pc->data + i, sizeof(PeoInfo), 1, pr);
+		}
+		
+	}
+	fclose(pr);
+	pr = NULL;
+	
 }

@@ -6,6 +6,7 @@
 # include <assert.h>
 # include <string.h>
 # include <stdlib.h>
+# include <errno.h>
 
 #define MAX 3
 #define INC 2
@@ -46,3 +47,5 @@ void SearchContact(Contact* pc);
 void ModifyContact(Contact* pc);
 void SortContact(Contact* pc);
 void DestoryContact(Contact* pc);
+void SaveContact(Contact* pc);
+void LoadContact(Contact* pc);

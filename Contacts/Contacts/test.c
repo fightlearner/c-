@@ -41,6 +41,7 @@ int main()
 				ShowContact(&con);
 				break;
 			case 7:
+				SaveContact(&con);
 				DestoryContact(&con);
 				break;
 			default:
