@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_offsetof\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{900C5452-7F03-497D-8468-C01B2518A5EB}|my_offsetof\\my_offsetof.vcxproj|D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_offsetof\\my_offsetof\\mian.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{900C5452-7F03-497D-8468-C01B2518A5EB}|my_offsetof\\my_offsetof.vcxproj|solutionrelative:my_offsetof\\mian.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mian.c",
+              "DocumentMoniker": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_offsetof\\my_offsetof\\mian.c",
+              "RelativeDocumentMoniker": "my_offsetof\\mian.c",
+              "ToolTip": "D:\\Study\\Cfile\\\u4EE3\u7801\u4ED3\u5E93\\c-\\my_offsetof\\my_offsetof\\mian.c",
+              "RelativeToolTip": "my_offsetof\\mian.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-03T13:49:45.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
